@@ -57,7 +57,7 @@ nav ul li a:hover {
     'one two three'
     'four five six';
     gap: 25px;
-    row-gap: 150px;
+    row-gap: 125px;
     margin-top: 175px;
 
 }
