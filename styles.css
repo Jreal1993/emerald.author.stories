@@ -1,0 +1,247 @@
+body {
+    background: linear-gradient(to left, whitesmoke, #f9e2e1);
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    margin-bottom: 25px;
+    background: linear-gradient(to left, whitesmoke, #f9e2e1);
+}
+
+.nav-menu {
+    display: flex;
+    text-align: right;
+    float: right;
+    padding-right: 5rem;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+.nav-link {
+    list-style: none;
+    
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 3rem;
+    font-style: italic;
+    
+}
+
+nav ul li a:hover {
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'one two three'
+    'four five six';
+    gap: 25px;
+    row-gap: 150px;
+    margin-top: 175px;
+
+}
+
+.item1 {
+    grid-area: one;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+.circleLinks {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 3.5rem;
+    font-style: normal;
+}
+.item2 {
+    grid-area: two;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+.item3 {
+    grid-area: three;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+.item4 {
+    grid-area: four;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+.item5 {
+    grid-area: five;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+.item6 {
+    grid-area: six;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: double black 10px;
+    text-align: center;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    text-indent: 30px;
+    font-size: large;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3 {
+    padding-left: 25px;
+    text-indent: 30px;
+}
+
+.journalOfNyx {
+    margin-top: 150px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;
+}
+
+#Nyx {
+    scroll-margin-top: 150px;
+}
+
+.backToStories {
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: double black 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    display: none;
+}
+
+.linksJourney {
+    margin-top: 100px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;
+}
+
+#linksJourney {
+    scroll-margin-top: 150px;
+}
+
+.falcon {
+    margin-top: 100px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;
+}
+
+#falcon {
+    scroll-margin-top: 145px;
+}
+
+.lostGirl {
+    margin-top: 100px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;
+}
+
+#lostGirl {
+    scroll-margin-top: 145px; 
+}
+
+.castaway {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;  
+}
+
+#castaway {
+    scroll-margin-top: 125px;
+}
+
+.lastRow {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    border-top: double black 10px;
+    padding-top: 100px;
+    display: none;  
+}
+
+#lastRow {
+    scroll-margin-top: 135px;
+}
